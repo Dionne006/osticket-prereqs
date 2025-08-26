@@ -121,7 +121,7 @@ To double check to make sure your VPN is securely active you can now access Wind
 <p></p>
 <p></p>
 
-This is with the VPN on. I clicked around with my VPN just to have fun with changes so it is different from what is listed above. 
+This is with the VPN on. I clicked around with my VPN just to have fun with changes so it is different from what is listed above. Now that we know that the VPN works properly we are sure that our true location is hidden and the computer cannot be hacked. I am now also able to work remotely from anywhere too now. 
 
 <img width="621" height="36" alt="image" src="https://github.com/user-attachments/assets/80a29030-ec94-4e8f-b47c-14b1186b6eac" />
 
