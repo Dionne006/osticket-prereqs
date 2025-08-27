@@ -4,7 +4,7 @@
 </p>
 
 <h1>VPN installation and Windows Powershell verification</h1>
-This tutorial helps you to set up and change your vpn to various locations around the world. Then we will verify through powershell that the VPN is functioning properly within a virtual machine.<br />
+This tutorial helps you set up and change your VPN to various locations around the world. Then, we will verify through PowerShell that the VPN is functioning properly within a virtual machine.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -27,13 +27,12 @@ This tutorial helps you to set up and change your vpn to various locations aroun
 
 <h2>Installation Steps</h2>
 <p></p>  
-First you need to start off by creating a resource group within Microsoft Azure. I named the resource group FinalVPN and put my region as East US.
+First, you need to start by creating a resource group within Microsoft Azure. I named the resource group 'FinalVPN' and set the region to 'East US'
 <p></p>
 
 <img width="384" height="699" alt="image" src="https://github.com/user-attachments/assets/3dc4a303-d103-4767-a695-c004c2d51b31" />
 
-Next you will have to create a virtual machine within Microsoft Azure. Be sure to use the same resource group name and region that you just created within this virtual machine.
-
+Next, you will need to create a virtual machine within Microsoft Azure. Be sure to use the same resource group name and region that you just created for this virtual machine.
 <p></p>
 <p>
 
@@ -41,16 +40,14 @@ Next you will have to create a virtual machine within Microsoft Azure. Be sure t
 <img width="825" height="691" alt="image" src="https://github.com/user-attachments/assets/e7e8cde0-0bd4-4e19-85b5-560386742a2b" />
 </p>
 <p>
-Read carefully and make sure evertyhing you selected is corresponds with each other and choose an operating system size that has at least 8GB of ram. I chose the Windows 10 operating system V22H2
-
+Read carefully and make sure everything you select corresponds with each other, and choose an operating system size that has at least 8 GB of RAM. I chose the Windows 10 operating system, version 22H2.
 </p>
 <br />
 
 <p>
 <img width="587" height="745" alt="image" src="https://github.com/user-attachments/assets/5b56df5e-7048-492d-b10a-ea564e00d167" />
 
-  After everything has been created you will now see within your virtual machine the corresponding operating system along with a public IP address. 
-
+After everything has been created, you will now see, within your virtual machine, the corresponding operating system along with a public IP address.
 </p>
 <p>
 </p>
@@ -64,13 +61,12 @@ Read carefully and make sure evertyhing you selected is corresponds with each ot
 <img width="883" height="542" alt="image" src="https://github.com/user-attachments/assets/10422cf2-a649-45c2-af2f-249b6e1a025a" />
 </p>
 <p>
-Before you go into your Virtual Machine it would be best to set your ipconfiguration to static. This will prevent the private and public IP Addresses from changing over time. 
-
+Before you go into your virtual machine, it would be best to set your IP configuration to static. This will prevent the private and public IP addresses from changing over time.
   <p></p>
   <p></p>
   <img width="640" height="758" alt="image" src="https://github.com/user-attachments/assets/4bef9345-874c-436e-bfe8-e716136aa916" />
 
-Now it's time to connect to your virtual machine in Remote Desktop Connection. Sign on with the same user name and password you created within the virtual machine creation proccess. 
+Now it's time to connect to your virtual machine using Remote Desktop Connection. Sign on with the same username and password you created during the virtual machine creation process.
 </p>
 <br />
 <img width="475" height="507" alt="image" src="https://github.com/user-attachments/assets/857da420-0756-4ba8-9658-a1f385122237" />
